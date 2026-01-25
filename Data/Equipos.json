@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "nombre": "MIAMI HEAT",
+    "color": "#98002E",
+    "jugadores": ["Jimmy Butler", "Bam Adebayo", "Tyler Herro", "Terry Rozier", "Kevin Love"]
+  },
+  {
+    "id": "2",
+    "nombre": "MILWAUKEE BUCKS",
+    "color": "#00471B",
+    "jugadores": ["Giannis Antetokounmpo", "Damian Lillard", "Khris Middleton", "Brook Lopez", "Bobby Portis"]
+  },
+  {
+    "id": "3",
+    "nombre": "DALLAS MAVERICKS",
+    "color": "#00538C",
+    "jugadores": ["Luka Doncic", "Kyrie Irving", "Klay Thompson", "P.J. Washington", "Daniel Gafford"]
+  },
+  {
+    "id": "4",
+    "nombre": "DENVER NUGGETS",
+    "color": "#FEC524",
+    "jugadores": ["Nikola Jokic", "Jamal Murray", "Aaron Gordon", "Michael Porter Jr.", "Russell Westbrook"]
+  },
+  {
+    "id": "5",
+    "nombre": "NY KNICKS",
+    "color": "#006BB6",
+    "jugadores": ["Jalen Brunson", "Karl-Anthony Towns", "Josh Hart", "OG Anunoby", "Mikal Bridges"]
+  }
+]
