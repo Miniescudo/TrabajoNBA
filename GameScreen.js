@@ -61,6 +61,15 @@ export default function GameScreen({ route, navigation }) {
           <Text style={styles.backButtonText}>⬅ VOLVER A SELECCIÓN</Text>
         </TouchableOpacity>
 
+        {/* BOTÓN PARA JUGAR PARTIDO */}
+        <TouchableOpacity 
+         style={styles.playButton} 
+           onPress={() => navigation.navigate('Match', { local, visit })}
+            >
+          <Text style={styles.playButtonText}>▶ JUGAR PARTIDO</Text>
+          </TouchableOpacity>
+
+
       </ScrollView>
     </SafeAreaView>
   );
@@ -121,5 +130,21 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'bold',
     letterSpacing: 1
-  }
+  },
+  playButton: {
+  marginTop: 20,
+  backgroundColor: '#00AA00',
+  borderWidth: 2,
+  borderColor: '#FFF',
+  paddingVertical: 14,
+  paddingHorizontal: 40,
+  borderRadius: 10,
+},
+playButtonText: {
+  color: '#FFF',
+  fontSize: 16,
+  fontWeight: 'bold',
+  letterSpacing: 1
+},
+
 });
